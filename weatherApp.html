@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <script src="portifolio.js"></script>
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+     <div class="weather-info" id="weather">
+         <p id="your-weather" style="font-size: 34px;font-weight: 700;"></p>
+         <p id="location">Location</p>
+         <p id="condition">condition</p>
+         <p id="temperature">Temperature</p>
+         <p id="country">Country</p>
+     </div>
+     <button onclick="getLocation()">Get Weather</button>
+     <div>
+         <h1>Current Location Map</h1>
+         <div class="map"></div>
+
+     </div>
+     
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+ <script src="index.js"></script>
+  
+ 
+</body>
+</html>

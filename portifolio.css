@@ -1,0 +1,242 @@
+html{
+    font-size:62.5%;
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Calibre, Inter, -apple-system, BlinkMacSystemFont, "San Francisco", "SF Pro Text", system-ui, sans-serif;
+    ;
+
+}
+body{
+    font-size:1.6rem ;
+    
+}
+.header-container
+{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.TopInformation{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    padding: 0.3em;
+    padding-left: 0;
+}
+nav{
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+    display: flex;
+    
+}
+ nav a{
+    text-decoration: none;
+    padding: 1em;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    ;
+
+}
+.Resume{
+    border: 2px solid black;
+    padding: 1.25rem 1.25rem;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+}
+.Greeting{
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+
+}
+.short-Introduction .My-name{
+    font-size: 6.6rem;
+
+}
+.what-I-am{
+    font-size: 5.5rem;
+}
+.introductry-Message{
+    font-size: 2rem;
+    font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+
+}
+.linkedin{
+    margin-top: 42px;
+    
+}
+.linkedin a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 1.75rem 1.25rem;
+    margin-top: 12px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+
+
+}
+.heading{
+    font-size: 32px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+
+    
+}
+
+.pictureOfMe,.aboutMe{
+    width: 100%;
+
+}
+.aboutMe{
+    font-size: 2rem;
+}
+.pictureOfMe{
+    z-index: 7;
+}
+.pictureOfMe::before{
+    
+    content: " ";
+    position: absolute;
+    z-index: -7;
+
+    width: 40rem; 
+    height: 40rem; 
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+   
+}
+
+
+
+.pictureOfMe img{
+    
+    height: 40rem;
+    width: 40rem;
+    min-width: 300px;
+
+}
+
+
+
+.introduction{
+    width: 90%;
+    height: 100vh;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.icon{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: -1.75rem;
+    margin-top: -20px;
+    z-index: -8;
+
+}
+
+.short-Introduction{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin: 0 auto;
+ max-width: 1200px;
+ 
+ 
+}
+
+.flexAbout{
+    
+display: flex;
+justify-content: space-between;
+padding: 20px;
+margin: 10rem auto 0 auto;
+gap: 0px 30px;
+width: 100%;
+align-items: center;
+
+}
+.SkillsSection{
+    margin: 4rem auto ;
+    width: 90%;
+    max-width: 1000px;
+    height: 100vh;
+    min-height: 100vh;
+  
+   
+}
+.SkillsSection1{
+    display: grid;
+    width: 100%;
+    grid-template-columns:50% 50%;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    
+    
+} 
+.technical{
+    grid-column: span 2;
+}
+.technical,.softskill,.future{
+    
+}
+li{
+    
+    font-size: 2rem;
+    
+}
+.head{
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 30px;
+}
+
+.contact{
+    margin: 0 auto;
+   width: 90%;
+   display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  height: 100vh;
+    
+    
+}
+.next{
+    padding: 15px;
+}
+.chat,.email{
+    padding: 15px;
+    font-size: 1.8rem;
+}
+.Thank-You-Message{
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.socials{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    
+}
+.socials1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    justify-content:end;
+    justify-items: end;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 881px) {
+   
+  }
+  
